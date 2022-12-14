@@ -1,0 +1,38 @@
+CREATE TABLE flight_database (
+	id INT,
+	flight_id VARCHAR (50),
+	airline VARCHAR (50),
+	flight_date DATE,
+	departure_airport VARCHAR (50),
+	arrival_airport VARCHAR (50),
+	planned_departure TIME,
+	actual_departure TIME,
+	planned_arrival TIME,
+	actual_arrival TIME,
+	airport_distance DECIMAL (10,2)
+);
+INSERT INTO flight_database (id, flight_id, airline, flight_date, departure_airport, arrival_airport, planned_departure, actual_departure, planned_arrival, actual_arrival, airport_distance ) values (1, 'KL 1001', 'KLM', '2022-12-12', 'Amsterdam Schiphol Airport (AMS)', 'London Heathrow (LHR)','07:20', '07:20', '08:40', '08:50', 371.575);
+INSERT INTO flight_database (id, flight_id, airline, flight_date, departure_airport, arrival_airport, planned_departure, actual_departure, planned_arrival, actual_arrival, airport_distance ) values (2, 'KL 1141', 'KLM', '2022-12-12', 'Amsterdam Schiphol Airport (AMS)', 'Oslo (OSL)', '06:45', '07:21', '08:35', '08:48', 960.812);
+INSERT INTO flight_database (id, flight_id, airline, flight_date, departure_airport, arrival_airport, planned_departure, actual_departure, planned_arrival, actual_arrival, airport_distance ) values (3, 'KL 713', 'KLM', '2022-12-12', 'Amsterdam Schiphol Airport (AMS)', 'Paramaribo (PBM)', '08:15', '08:42', '17:35', '18:31', 7521.182);
+INSERT INTO flight_database (id, flight_id, airline, flight_date, departure_airport, arrival_airport, planned_departure, actual_departure, planned_arrival, actual_arrival, airport_distance ) values (4, 'DL 49', 'Delta Air Lines', '2022-12-12', 'Amsterdam Schiphol Airport (AMS)', 'New York JFK (JFK)', '12:00', '12:00', '19:27', '19:27', 5863.340);
+INSERT INTO flight_database (id, flight_id, airline, flight_date, departure_airport, arrival_airport, planned_departure, actual_departure, planned_arrival, actual_arrival, airport_distance ) values (5, 'DL 47', 'Delta Air Lines', '2022-12-12', 'Amsterdam Schiphol Airport (AMS)', 'New York JFK (JFK)', '13:20', '13:20', '21:35', '21:35', 5863.340);
+INSERT INTO flight_database (id, flight_id, airline, flight_date, departure_airport, arrival_airport, planned_departure, actual_departure, planned_arrival, actual_arrival, airport_distance ) values (6, 'LH 987', 'Lufthansa', '2022-12-12', 'Amsterdam Schiphol Airport (AMS)', 'Frankfurt (FRA)', '08:40', '09:03', '09:45', '09:57', 366.430);
+INSERT INTO flight_database (id, flight_id, airline, flight_date, departure_airport, arrival_airport, planned_departure, actual_departure, planned_arrival, actual_arrival, airport_distance ) values (7, 'LH 2301', 'Lufthansa', '2022-12-12', 'Amsterdam Schiphol Airport (AMS)', 'Munich (MUC)', '08:55', '10:14', '09:40', '11:53', 665.433);
+INSERT INTO flight_database (id, flight_id, airline, flight_date, departure_airport, arrival_airport, planned_departure, actual_departure, planned_arrival, actual_arrival, airport_distance ) values (8, 'KL 1001', 'KLM', '2022-12-13', 'Amsterdam Schiphol Airport (AMS)', 'London Heathrow (LHR)', '07:20', '07:50', '08:40', '08:50', 371.575);
+INSERT INTO flight_database (id, flight_id, airline, flight_date, departure_airport, arrival_airport, planned_departure, actual_departure, planned_arrival, actual_arrival, airport_distance ) values (9, 'KL 1141', 'KLM', '2022-12-13', 'Amsterdam Schiphol Airport (AMS)', 'Oslo (OSL)', '06:45', '08:00', '08:35', '09:16', 960.812);
+INSERT INTO flight_database (id, flight_id, airline, flight_date, departure_airport, arrival_airport, planned_departure, actual_departure, planned_arrival, actual_arrival, airport_distance ) values (10, 'KL 713', 'KLM', '2022-12-13', 'Amsterdam Schiphol Airport (AMS)', 'Paramaribo (PBM)', '08:15', '08:20', '17:35', '17:35', 7521.182);
+INSERT INTO flight_database (id, flight_id, airline, flight_date, departure_airport, arrival_airport, planned_departure, actual_departure, planned_arrival, actual_arrival, airport_distance ) values (11, 'DL 49', 'Delta Air Lines', '2022-12-13', 'Amsterdam Schiphol Airport (AMS)', 'New York JFK (JFK)', '12:00', '12:10', '19:27', '19:40', 5863.340);
+INSERT INTO flight_database (id, flight_id, airline, flight_date, departure_airport, arrival_airport, planned_departure, actual_departure, planned_arrival, actual_arrival, airport_distance ) values (12, 'DL 47', 'Delta Air Lines', '2022-12-13', 'Amsterdam Schiphol Airport (AMS)', 'New York JFK (JFK)', '13:20', '13:25', '21:35', '21:35', 5863.340);
+INSERT INTO flight_database (id, flight_id, airline, flight_date, departure_airport, arrival_airport, planned_departure, actual_departure, planned_arrival, actual_arrival, airport_distance ) values (13, 'LH 987', 'Lufthansa', '2022-12-13', 'Amsterdam Schiphol Airport (AMS)', 'Frankfurt (FRA)', '08:40', '08:40', '09:45', '09:49', 665.433);
+INSERT INTO flight_database (id, flight_id, airline, flight_date, departure_airport, arrival_airport, planned_departure, actual_departure, planned_arrival, actual_arrival, airport_distance ) values (14, 'LH 2301', 'Lufthansa', '2022-12-13', 'Amsterdam Schiphol Airport (AMS)', 'Munich (MUC)', '08:55', '09:15', '09:40', '10:00', 665.433);
+INSERT INTO flight_database (id, flight_id, airline, flight_date, departure_airport, arrival_airport, planned_departure, actual_departure, planned_arrival, actual_arrival, airport_distance ) values (15, 'KL 1001', 'KLM', '2022-12-14', 'Amsterdam Schiphol Airport (AMS)', 'London Heathrow (LHR)', '07:20', '09:47', '08:40', '10:57', 371.575);
+INSERT INTO flight_database (id, flight_id, airline, flight_date, departure_airport, arrival_airport, planned_departure, actual_departure, planned_arrival, actual_arrival, airport_distance ) values (16, 'KL 1141', 'KLM', '2022-12-14', 'Amsterdam Schiphol Airport (AMS)', 'Oslo (OSL)', '06:45', '06:57', '08:35', '08:40', 960.812);
+INSERT INTO flight_database (id, flight_id, airline, flight_date, departure_airport, arrival_airport, planned_departure, actual_departure, planned_arrival, actual_arrival, airport_distance ) values (17, 'KL 713', 'KLM', '2022-12-14', 'Amsterdam Schiphol Airport (AMS)', 'Paramaribo (PBM)', '08:15', '08:22', '17:35', '17:51', 7521.182);
+INSERT INTO flight_database (id, flight_id, airline, flight_date, departure_airport, arrival_airport, planned_departure, actual_departure, planned_arrival, actual_arrival, airport_distance ) values (18, 'DL 49', 'Delta Air Lines', '2022-12-14', 'Amsterdam Schiphol Airport (AMS)', 'New York JFK (JFK)', '12:00', '12:41', '19:27', '19:44', 5863.340);
+INSERT INTO flight_database (id, flight_id, airline, flight_date, departure_airport, arrival_airport, planned_departure, actual_departure, planned_arrival, actual_arrival, airport_distance ) values (19, 'DL 47', 'Delta Air Lines', '2022-12-14', 'Amsterdam Schiphol Airport (AMS)', 'New York JFK (JFK)', '13:20', '13:22', '21:35', '21:35', 5863.340);
+INSERT INTO flight_database (id, flight_id, airline, flight_date, departure_airport, arrival_airport, planned_departure, actual_departure, planned_arrival, actual_arrival, airport_distance ) values (20, 'LH 987', 'Lufthansa', '2022-12-14', 'Amsterdam Schiphol Airport (AMS)', 'Frankfurt (FRA)', '08:40', '09:03', '09:45', '10:00', 665.433);
+INSERT INTO flight_database (id, flight_id, airline, flight_date, departure_airport, arrival_airport, planned_departure, actual_departure, planned_arrival, actual_arrival, airport_distance ) values (21, 'LH 2301', 'Lufthansa', '2022-12-14', 'Amsterdam Schiphol Airport (AMS)', 'Munich (MUC)', '08:55', '10:14', '09:40', '10:52', 665.433);
+
+
+
+
